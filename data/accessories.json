@@ -1,0 +1,74 @@
+[
+  {
+    "id": "acc-1",
+    "title": "HyperX Cloud III Headset",
+    "price": 99.99,
+    "image": "/images/acc-headset-1.jpg",
+    "type": "Headsets",
+    "brand": "HyperX",
+    "description": "Premium gaming headset with 7.1 surround sound."
+  },
+  {
+    "id": "acc-2",
+    "title": "Razer DeathAdder V3",
+    "price": 69.99,
+    "image": "/images/acc-mouse-1.jpg",
+    "type": "Mice",
+    "brand": "Razer",
+    "description": "Ultra-lightweight ergonomic gaming mouse."
+  },
+  {
+    "id": "acc-3",
+    "title": "Xbox Elite Controller",
+    "price": 179.99,
+    "image": "/images/acc-controller-1.jpg",
+    "type": "Controllers",
+    "brand": "Xbox",
+    "description": "Pro-grade wireless controller with adjustable triggers."
+  },
+  {
+    "id": "acc-4",
+    "title": "SteelSeries Arctis Nova",
+    "price": 129.99,
+    "image": "/images/acc-headset-2.jpg",
+    "type": "Headsets",
+    "brand": "SteelSeries",
+    "description": "Wireless gaming headset with active noise cancellation."
+  },
+  {
+    "id": "acc-5",
+    "title": "DualSense Edge Controller",
+    "price": 199.99,
+    "image": "/images/acc-controller-2.jpg",
+    "type": "Controllers",
+    "brand": "PlayStation",
+    "description": "Customizable PS5 controller with back buttons."
+  },
+  {
+    "id": "acc-6",
+    "title": "Logitech G Pro X Superlight",
+    "price": 159.99,
+    "image": "/images/acc-mouse-2.jpg",
+    "type": "Mice",
+    "brand": "Logitech",
+    "description": "Ultra-lightweight wireless gaming mouse for esports."
+  },
+  {
+    "id": "acc-7",
+    "title": "Samsung Odyssey G9 Earbuds",
+    "price": 79.99,
+    "image": "/images/acc-earbuds-1.jpg",
+    "type": "Earphones",
+    "brand": "Samsung",
+    "description": "Low-latency gaming earbuds with spatial audio."
+  },
+  {
+    "id": "acc-8",
+    "title": "Corsair K100 Keyboard",
+    "price": 229.99,
+    "image": "/images/acc-keyboard-1.jpg",
+    "type": "Keyboards",
+    "brand": "Corsair",
+    "description": "Mechanical gaming keyboard with per-key RGB lighting."
+  }
+]

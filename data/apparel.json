@@ -1,0 +1,74 @@
+[
+  {
+    "id": "apparel-1",
+    "title": "PixelDen Logo Hoodie",
+    "price": 64.99,
+    "image": "/images/apparel-hoodie-1.jpg",
+    "category": "Hoodies",
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "description": "Premium black hoodie with embroidered neon PixelDen logo."
+  },
+  {
+    "id": "apparel-2",
+    "title": "Cyber Nexus Tee",
+    "price": 29.99,
+    "image": "/images/apparel-tee-1.jpg",
+    "category": "T-Shirts",
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Official Cyber Nexus 2088 graphic tee."
+  },
+  {
+    "id": "apparel-3",
+    "title": "Neon Gamer Snapback",
+    "price": 24.99,
+    "image": "/images/apparel-hat-1.jpg",
+    "category": "Hats",
+    "sizes": ["One Size"],
+    "description": "Adjustable snapback with holographic gaming logo."
+  },
+  {
+    "id": "apparel-4",
+    "title": "Shadow Protocol Jacket",
+    "price": 89.99,
+    "image": "/images/apparel-jacket-1.jpg",
+    "category": "Jackets",
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Lightweight bomber jacket with Shadow Protocol patches."
+  },
+  {
+    "id": "apparel-5",
+    "title": "Starforge Crew Hoodie",
+    "price": 59.99,
+    "image": "/images/apparel-hoodie-2.jpg",
+    "category": "Hoodies",
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "description": "Cozy pullover hoodie with Starforge Odyssey art."
+  },
+  {
+    "id": "apparel-6",
+    "title": "Retro Pixel Tee",
+    "price": 24.99,
+    "image": "/images/apparel-tee-2.jpg",
+    "category": "T-Shirts",
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Vintage pixel art design on soft cotton tee."
+  },
+  {
+    "id": "apparel-7",
+    "title": "GG Beanie",
+    "price": 19.99,
+    "image": "/images/apparel-beanie-1.jpg",
+    "category": "Hats",
+    "sizes": ["One Size"],
+    "description": "Knit beanie with embroidered GG logo."
+  },
+  {
+    "id": "apparel-8",
+    "title": "Vortex Arena Jersey",
+    "price": 49.99,
+    "image": "/images/apparel-jersey-1.jpg",
+    "category": "T-Shirts",
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Esports-style jersey with moisture-wicking fabric."
+  }
+]

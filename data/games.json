@@ -1,0 +1,96 @@
+[
+  {
+    "id": "game-1",
+    "title": "Cyber Nexus 2088",
+    "price": 59.99,
+    "image": "/images/game-cyber.jpg",
+    "genre": "RPG",
+    "platform": "PC",
+    "description": "Open-world cyberpunk RPG with neural hacking mechanics.",
+    "featured": true
+  },
+  {
+    "id": "game-2",
+    "title": "Shadow Protocol",
+    "price": 49.99,
+    "image": "/images/game-shadow.jpg",
+    "genre": "Stealth",
+    "platform": "PS5",
+    "description": "Tactical stealth action in a noir thriller setting.",
+    "featured": true
+  },
+  {
+    "id": "game-3",
+    "title": "Starforge Odyssey",
+    "price": 69.99,
+    "image": "/images/game-starforge.jpg",
+    "genre": "Sci-Fi",
+    "platform": "PC",
+    "description": "Epic space exploration with base building and fleet combat.",
+    "featured": true
+  },
+  {
+    "id": "game-4",
+    "title": "Neon Drift Racing",
+    "price": 39.99,
+    "image": "/images/game-neon.jpg",
+    "genre": "Racing",
+    "platform": "Xbox",
+    "description": "High-speed futuristic racing through neon-lit cityscapes.",
+    "featured": true
+  },
+  {
+    "id": "game-5",
+    "title": "Realm of Ancients",
+    "price": 54.99,
+    "image": "/images/game-realm.jpg",
+    "genre": "RPG",
+    "platform": "PS5",
+    "description": "Fantasy ARPG with deep lore and challenging boss encounters."
+  },
+  {
+    "id": "game-6",
+    "title": "Vortex Arena",
+    "price": 29.99,
+    "image": "/images/game-vortex.jpg",
+    "genre": "FPS",
+    "platform": "PC",
+    "description": "Fast-paced competitive FPS with unique gravity mechanics."
+  },
+  {
+    "id": "game-7",
+    "title": "Dead Circuit",
+    "price": 44.99,
+    "image": "/images/game-dead.jpg",
+    "genre": "Horror",
+    "platform": "PS5",
+    "description": "Survival horror in an abandoned space station."
+  },
+  {
+    "id": "game-8",
+    "title": "Pixel Warriors Online",
+    "price": 0,
+    "image": "/images/game-pixel.jpg",
+    "genre": "MMO",
+    "platform": "PC",
+    "description": "Free-to-play retro-styled MMO with modern mechanics."
+  },
+  {
+    "id": "game-9",
+    "title": "Turbo Blitz",
+    "price": 34.99,
+    "image": "/images/game-turbo.jpg",
+    "genre": "Racing",
+    "platform": "Xbox",
+    "description": "Arcade racing with destructible environments."
+  },
+  {
+    "id": "game-10",
+    "title": "Phantom Edge",
+    "price": 59.99,
+    "image": "/images/game-phantom.jpg",
+    "genre": "Action",
+    "platform": "PC",
+    "description": "Stylish hack-and-slash with combo-driven combat."
+  }
+]
