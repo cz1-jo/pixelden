@@ -9,14 +9,14 @@ const config: Config = {
     extend: {
       colors: {
         dark: {
-          base: "#0a0a0f",
-          card: "#1a1a2e",
-          surface: "#16162a",
+          base: "#040407",
+          card: "#0c0c18",
+          surface: "#090914",
         },
         neon: {
-          purple: "#7c3aed",
-          cyan: "#06b6d4",
-          pink: "#ec4899",
+          purple: "#8b5cf6",
+          cyan: "#22d3ee",
+          pink: "#f472b6",
         },
       },
       fontFamily: {
