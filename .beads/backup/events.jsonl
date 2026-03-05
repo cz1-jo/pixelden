@@ -1,0 +1,2 @@
+{"actor":"gamestore//refinery","comment":null,"created_at":"2026-03-05T04:44:45Z","event_type":"created","id":1,"issue_id":"ga-ui5","new_value":"","old_value":""}
+{"actor":"gamestore//refinery","comment":null,"created_at":"2026-03-05T04:44:49Z","event_type":"closed","id":2,"issue_id":"ga-ui5","new_value":"patrol-complete: All clear. No MERGE_READY mail, merge queue empty, no unmerged branches, no open beads, no integration branches.","old_value":""}
