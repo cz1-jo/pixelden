@@ -2,95 +2,185 @@
   {
     "id": "game-1",
     "title": "Grand Theft Auto VI",
-    "price": 69.99,
+    "price": 1299.99,
     "image": "/images/game-cyber.jpg",
     "genre": "Action",
     "platform": "PS5",
     "description": "Return to Vice City in Rockstar's most ambitious open-world crime epic yet.",
-    "featured": true
+    "featured": true,
+    "releaseDate": "2025-10-27",
+    "developer": "Rockstar Games",
+    "rating": "18+",
+    "features": ["Open-World Exploration", "Online Multiplayer", "Dynamic Weather", "Dual Protagonists"],
+    "longDescription": [
+      "Grand Theft Auto VI marks Rockstar Games' triumphant return to Vice City — a sun-soaked, neon-drenched metropolis inspired by Miami and its surrounding areas. Set in the fictional state of Leonida, GTA VI delivers the most expansive and detailed open world the studio has ever created.",
+      "For the first time in the series, players follow two protagonists: Lucia and her partner in crime as they navigate the dangerous criminal underworld of Leonida. From the swamps of the Everglades to the glamorous beaches of Vice City, every corner of this world pulses with life, danger, and opportunity.",
+      "The game features a revamped wanted system, dynamic NPC behavior driven by advanced AI, and a living economy that reacts to player actions. Whether you're pulling off elaborate heists, cruising down Ocean Drive at sunset, or diving into the chaos of online multiplayer, GTA VI sets a new standard for interactive entertainment."
+    ]
   },
   {
     "id": "game-2",
     "title": "Ghost of Yōtei",
-    "price": 69.99,
+    "price": 1299.99,
     "image": "/images/game-shadow.jpg",
     "genre": "Action",
     "platform": "PS5",
     "description": "Sucker Punch's samurai sequel set at the base of Mount Yōtei in 1603 Japan.",
-    "featured": true
+    "featured": true,
+    "releaseDate": "2025-10-02",
+    "developer": "Sucker Punch Productions",
+    "rating": "16+",
+    "features": ["Open-World Samurai Combat", "New Female Protagonist", "Photo Mode", "Dynamic Seasons"],
+    "longDescription": [
+      "Ghost of Yōtei transports players to 1603 Japan, set at the base of the majestic Mount Yōtei in Hokkaido. Sucker Punch Productions returns with a brand-new story featuring Atsu, a wandering warrior with a mysterious past and a deep connection to the land she roams.",
+      "Building on everything that made Ghost of Tsushima a beloved classic, Yōtei introduces expanded traversal mechanics, deeper stealth systems, and a more nuanced approach to combat that blends traditional swordsmanship with new ranged weaponry. The world shifts dynamically through seasons, each bringing new challenges and visual splendor.",
+      "Explore dense forests, volcanic hot springs, and snow-capped peaks as you uncover a story of honor, sacrifice, and the fight to protect a way of life. With a reimagined legends mode and stunning PS5 visuals, Ghost of Yōtei is the definitive samurai experience."
+    ]
   },
   {
     "id": "game-3",
     "title": "Monster Hunter Wilds",
-    "price": 59.99,
+    "price": 1099.99,
     "image": "/images/game-starforge.jpg",
     "genre": "RPG",
     "platform": "PC",
     "description": "Hunt massive creatures across vast open ecosystems with seamless multiplayer.",
-    "featured": true
+    "featured": true,
+    "releaseDate": "2025-02-28",
+    "developer": "Capcom",
+    "rating": "12+",
+    "features": ["Seamless Multiplayer", "Open Ecosystems", "14 Weapon Types", "Dynamic Monster Behavior"],
+    "longDescription": [
+      "Monster Hunter Wilds takes the beloved hunting franchise into truly open, interconnected ecosystems for the first time. Gone are the loading screens between zones — now the Forbidden Lands stretch out before you as one massive, living biome where monsters migrate, hunt, and clash with each other in real time.",
+      "Choose from 14 distinct weapon types, each with deep combo systems and unique playstyles. Team up with up to three friends in seamless drop-in co-op, or take on the wilds solo with your trusty Palico companion. The new Seikret mount system lets you ride across the landscape and even switch weapons mid-combat.",
+      "Capcom's RE Engine delivers breathtaking visuals — from sun-baked deserts hit by sudden sandstorms to lush jungles teeming with life. Every hunt is a story, every monster a puzzle. Prepare, adapt, and overcome in the most ambitious Monster Hunter yet."
+    ]
   },
   {
     "id": "game-4",
     "title": "Death Stranding 2: On the Beach",
-    "price": 69.99,
+    "price": 1299.99,
     "image": "/images/game-neon.jpg",
     "genre": "Action",
     "platform": "PS5",
     "description": "Kojima's mind-bending sequel expands the connected world with new strand mechanics.",
-    "featured": true
+    "featured": true,
+    "releaseDate": "2025-06-26",
+    "developer": "Kojima Productions",
+    "rating": "18+",
+    "features": ["Strand Gameplay", "Star-Studded Cast", "Expanded Multiplayer", "New BT Encounters"],
+    "longDescription": [
+      "Death Stranding 2: On the Beach continues Hideo Kojima's visionary saga of connection in a fractured world. Sam Porter Bridges returns alongside a new cast of characters — played by an all-star ensemble including Elle Fanning, Shioli Kutsuna, and Troy Baker — as they venture beyond the borders of the UCA into uncharted territory.",
+      "The strand system has been dramatically expanded. New tools, vehicles, and collaborative structures allow players to reshape the world in unprecedented ways. The Beached Things (BTs) have evolved too, presenting terrifying new encounters that blend horror, action, and puzzle-solving in ways only Kojima could imagine.",
+      "At its heart, Death Stranding 2 asks what it means to connect in a world that keeps falling apart. With stunning PS5 visuals powered by Decima Engine, a hauntingly beautiful soundtrack, and gameplay that challenges every convention, this is Kojima at his most ambitious and personal."
+    ]
   },
   {
     "id": "game-5",
     "title": "Doom: The Dark Ages",
-    "price": 69.99,
+    "price": 1299.99,
     "image": "/images/game-realm.jpg",
     "genre": "FPS",
     "platform": "Xbox",
-    "description": "Medieval-era Doom Slayer origin story with brutal melee and ranged combat."
+    "description": "Medieval-era Doom Slayer origin story with brutal melee and ranged combat.",
+    "releaseDate": "2025-05-15",
+    "developer": "id Software",
+    "rating": "18+",
+    "features": ["Medieval Setting", "Mech Battles", "Dragon Riding", "Brutal Glory Kills"],
+    "longDescription": [
+      "Doom: The Dark Ages is a savage prequel that reveals the origins of the Doom Slayer. Set in a dark fantasy medieval world, id Software combines the franchise's signature speed and violence with new melee-focused combat, massive mech battles, and even dragon-mounted aerial warfare.",
+      "Wield a combination of medieval weaponry and demonic firearms as you carve through legions of Hell's armies across war-torn castles, cursed forests, and infernal fortresses. The new Shield Saw acts as both a defensive tool and a devastating ranged weapon, adding a tactical layer to the series' relentless pace.",
+      "Running on id Tech 8, The Dark Ages delivers the most visually spectacular Doom yet — with massive battlefields, dynamic destruction, and a heavy metal soundtrack that drives every encounter to fever pitch. This is the Doom Slayer's origin story, and it's the most metal game ever made."
+    ]
   },
   {
     "id": "game-6",
     "title": "Civilization VII",
-    "price": 59.99,
+    "price": 1099.99,
     "image": "/images/game-vortex.jpg",
     "genre": "Strategy",
     "platform": "PC",
-    "description": "Build empires across ages with a reimagined leader and civilization system."
+    "description": "Build empires across ages with a reimagined leader and civilization system.",
+    "releaseDate": "2025-02-11",
+    "developer": "Firaxis Games",
+    "rating": "12+",
+    "features": ["Ages System", "Independent Peoples", "Commander Units", "Cross-Platform"],
+    "longDescription": [
+      "Civilization VII reimagines the legendary 4X strategy franchise with a revolutionary Ages system. Your empire now evolves through distinct historical periods — Antiquity, Exploration, and Modern — each presenting new gameplay mechanics, technologies, and challenges that transform how you build your civilization.",
+      "For the first time, leaders and civilizations are separate choices, letting you create unique combinations like Cleopatra leading Rome or Ashoka guiding the Mongols. Independent Peoples replace the old city-state system with dynamic factions that can become powerful allies or dangerous rivals.",
+      "New Commander units lead your armies with special abilities, while the overhauled diplomacy system introduces narrative events that make each game feel like a living history. Available across all platforms with cross-save support, Civ VII delivers that legendary 'one more turn' feeling with more depth and accessibility than ever before."
+    ]
   },
   {
     "id": "game-7",
     "title": "Like a Dragon: Pirate Yakuza in Hawaii",
-    "price": 59.99,
+    "price": 1099.99,
     "image": "/images/game-dead.jpg",
     "genre": "RPG",
     "platform": "PS5",
-    "description": "Majima sets sail in a wild pirate adventure across the Hawaiian islands."
+    "description": "Majima sets sail in a wild pirate adventure across the Hawaiian islands.",
+    "releaseDate": "2025-02-21",
+    "developer": "Ryu Ga Gotoku Studio",
+    "rating": "18+",
+    "features": ["Naval Combat", "Dual Combat Styles", "Ship Customization", "Hawaiian Open World"],
+    "longDescription": [
+      "Like a Dragon: Pirate Yakuza in Hawaii puts the legendary Goro Majima at the helm of his own pirate adventure. Washed ashore in Hawaii with amnesia, Majima must rebuild his crew, customize his ship, and navigate the treacherous waters of the Pacific while uncovering a conspiracy that spans the criminal underworld.",
+      "Combat switches between two explosive styles: the Mad Dog style for classic Majima brawling on land, and a brand-new Sea Dog style for ship-to-ship naval battles. Recruit colorful crew members, upgrade your vessel with weapons and armor, and engage in real-time naval warfare against rival pirate fleets.",
+      "RGG Studio brings their signature blend of serious drama and absurd humor to the high seas. Explore Hawaiian islands, dive for treasure, compete in mini-games ranging from bug fighting to karaoke, and experience a story that only the creators of Yakuza could tell. It's Majima's world — we're just sailing in it."
+    ]
   },
   {
     "id": "game-8",
     "title": "Assassin's Creed Shadows",
-    "price": 69.99,
+    "price": 1299.99,
     "image": "/images/game-pixel.jpg",
     "genre": "Action",
     "platform": "PC",
-    "description": "Dual protagonists — a shinobi and a samurai — in feudal Japan."
+    "description": "Dual protagonists — a shinobi and a samurai — in feudal Japan.",
+    "releaseDate": "2025-03-20",
+    "developer": "Ubisoft Quebec",
+    "rating": "18+",
+    "features": ["Dual Protagonists", "Feudal Japan Setting", "Dynamic Seasons", "Stealth & Combat"],
+    "longDescription": [
+      "Assassin's Creed Shadows finally brings the franchise to feudal Japan, a setting fans have requested for over a decade. Play as two distinct protagonists: Naoe, a shinobi trained in the art of stealth and assassination, and Yasuke, a legendary African samurai who wields devastating power on the battlefield.",
+      "Switch between characters freely, each offering a fundamentally different gameplay experience. Naoe excels in infiltration — using grappling hooks, smoke bombs, and the series' most refined stealth mechanics to eliminate targets from the shadows. Yasuke is a force of nature, cutting through enemies with heavy weapons and samurai armor in visceral, physics-driven combat.",
+      "Set during the turbulent Azuchi-Momoyama period, the game features a dynamic world where seasons change, affecting gameplay, NPC behavior, and the landscape itself. From the cherry blossoms of Kyoto to the snow-covered mountains of northern Japan, Shadows delivers the most visually stunning and historically rich Assassin's Creed to date."
+    ]
   },
   {
     "id": "game-9",
     "title": "Split Fiction",
-    "price": 39.99,
+    "price": 749.99,
     "image": "/images/game-turbo.jpg",
     "genre": "Co-op",
     "platform": "PC",
-    "description": "Hazelight's co-op adventure jumping between sci-fi and fantasy worlds."
+    "description": "Hazelight's co-op adventure jumping between sci-fi and fantasy worlds.",
+    "releaseDate": "2025-03-06",
+    "developer": "Hazelight Studios",
+    "rating": "12+",
+    "features": ["Mandatory Co-op", "Genre-Hopping Worlds", "Friend's Pass", "Unique Mechanics Per Level"],
+    "longDescription": [
+      "Split Fiction is the latest co-op masterpiece from Hazelight Studios, the creators of It Takes Two. Two writers — Mio and Zoe — find themselves trapped inside their own stories after a shady tech company's brain-scanning device malfunctions, merging their fictional worlds into one chaotic adventure.",
+      "Every level is a completely different experience. One moment you're surfing through a cyberpunk cityscape, the next you're riding dragons through a medieval fantasy realm. Hazelight's signature design philosophy means no mechanic overstays its welcome — each chapter introduces fresh gameplay ideas that keep both players constantly surprised.",
+      "With Friend's Pass letting a friend play the entire game for free, Split Fiction is designed from the ground up for shared experiences. Communication, coordination, and creativity are key as you navigate puzzles, platforming challenges, and action set-pieces that can only be solved together."
+    ]
   },
   {
     "id": "game-10",
     "title": "Metroid Prime 4: Beyond",
-    "price": 59.99,
+    "price": 1099.99,
     "image": "/images/game-phantom.jpg",
     "genre": "Action",
     "platform": "Switch 2",
-    "description": "Samus returns in a new first-person adventure on Nintendo's next-gen hardware."
+    "description": "Samus returns in a new first-person adventure on Nintendo's next-gen hardware.",
+    "releaseDate": "2025-09-05",
+    "developer": "Retro Studios",
+    "rating": "12+",
+    "features": ["First-Person Exploration", "New Visor Abilities", "Interconnected World", "Boss Battles"],
+    "longDescription": [
+      "Metroid Prime 4: Beyond marks the long-awaited return of Samus Aran in a brand-new first-person adventure built from the ground up for Nintendo's next-generation hardware. Retro Studios delivers a masterclass in atmospheric exploration, dropping players onto a mysterious alien world teeming with secrets, danger, and discovery.",
+      "Armed with her iconic Power Suit, Samus must navigate an interconnected world of alien biomes — from bioluminescent caverns to crumbling ancient ruins — using new visor abilities and beam weapons to unlock paths and overcome increasingly deadly threats. The scan visor returns with deeper lore entries that reward curious explorers.",
+      "Every area is a puzzle box, every boss is an event. Metroid Prime 4 channels the spirit of the original trilogy while pushing the franchise forward with modern design sensibilities, stunning visual fidelity, and a haunting soundtrack that makes every corridor feel like uncharted territory. Welcome back, bounty hunter."
+    ]
   }
 ]

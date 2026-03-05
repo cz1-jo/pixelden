@@ -151,7 +151,7 @@ export default function ModernGamerBanner() {
                 <p className="text-sm text-gray-400 mt-1">Games Traded</p>
               </div>
               <div className="bg-white/[0.03] backdrop-blur-sm border border-white/5 rounded-2xl p-6 hover:border-neon-purple/20 transition-colors">
-                <p className="text-3xl md:text-4xl font-black text-neon-purple">$2M+</p>
+                <p className="text-3xl md:text-4xl font-black text-neon-purple">R36M+</p>
                 <p className="text-sm text-gray-400 mt-1">Saved by Gamers</p>
               </div>
               <div className="bg-white/[0.03] backdrop-blur-sm border border-white/5 rounded-2xl p-6 hover:border-neon-purple/20 transition-colors">

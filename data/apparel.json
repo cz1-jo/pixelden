@@ -2,7 +2,7 @@
   {
     "id": "apparel-1",
     "title": "PixelDen Logo Hoodie",
-    "price": 64.99,
+    "price": 1199.99,
     "image": "/images/apparel-hoodie-1.jpg",
     "category": "Hoodies",
     "sizes": ["S", "M", "L", "XL", "XXL"],
@@ -11,7 +11,7 @@
   {
     "id": "apparel-2",
     "title": "Cyber Nexus Tee",
-    "price": 29.99,
+    "price": 549.99,
     "image": "/images/apparel-tee-1.jpg",
     "category": "T-Shirts",
     "sizes": ["S", "M", "L", "XL"],
@@ -20,7 +20,7 @@
   {
     "id": "apparel-3",
     "title": "Neon Gamer Snapback",
-    "price": 24.99,
+    "price": 449.99,
     "image": "/images/apparel-hat-1.jpg",
     "category": "Hats",
     "sizes": ["One Size"],
@@ -29,7 +29,7 @@
   {
     "id": "apparel-4",
     "title": "Shadow Protocol Jacket",
-    "price": 89.99,
+    "price": 1649.99,
     "image": "/images/apparel-jacket-1.jpg",
     "category": "Jackets",
     "sizes": ["S", "M", "L", "XL"],
@@ -38,7 +38,7 @@
   {
     "id": "apparel-5",
     "title": "Starforge Crew Hoodie",
-    "price": 59.99,
+    "price": 1099.99,
     "image": "/images/apparel-hoodie-2.jpg",
     "category": "Hoodies",
     "sizes": ["S", "M", "L", "XL", "XXL"],
@@ -47,7 +47,7 @@
   {
     "id": "apparel-6",
     "title": "Retro Pixel Tee",
-    "price": 24.99,
+    "price": 449.99,
     "image": "/images/apparel-tee-2.jpg",
     "category": "T-Shirts",
     "sizes": ["S", "M", "L", "XL"],
@@ -56,7 +56,7 @@
   {
     "id": "apparel-7",
     "title": "GG Beanie",
-    "price": 19.99,
+    "price": 369.99,
     "image": "/images/apparel-beanie-1.jpg",
     "category": "Hats",
     "sizes": ["One Size"],
@@ -65,7 +65,7 @@
   {
     "id": "apparel-8",
     "title": "Vortex Arena Jersey",
-    "price": 49.99,
+    "price": 929.99,
     "image": "/images/apparel-jersey-1.jpg",
     "category": "T-Shirts",
     "sizes": ["S", "M", "L", "XL"],

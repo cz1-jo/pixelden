@@ -19,7 +19,7 @@ export default function CartItem({ item }: CartItemProps) {
 
       <div className="flex-1 min-w-0">
         <h3 className="font-semibold text-gray-100 truncate">{item.title}</h3>
-        <p className="text-neon-cyan font-medium">${item.price.toFixed(2)}</p>
+        <p className="text-neon-cyan font-medium">R{item.price.toFixed(2)}</p>
       </div>
 
       <div className="flex items-center gap-2">
@@ -39,7 +39,7 @@ export default function CartItem({ item }: CartItemProps) {
       </div>
 
       <p className="text-lg font-bold text-gray-100 w-24 text-right">
-        ${(item.price * item.quantity).toFixed(2)}
+        R{(item.price * item.quantity).toFixed(2)}
       </p>
 
       <button

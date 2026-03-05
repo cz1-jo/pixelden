@@ -47,25 +47,28 @@ export default function CartPage() {
           <div className="space-y-3 mb-6">
             <div className="flex justify-between text-gray-400">
               <span>Subtotal</span>
-              <span>${totalPrice.toFixed(2)}</span>
+              <span>R{totalPrice.toFixed(2)}</span>
             </div>
             <div className="flex justify-between text-gray-400">
               <span>Shipping</span>
               <span className="text-neon-cyan">Free</span>
             </div>
             <div className="flex justify-between text-gray-400">
-              <span>Tax</span>
-              <span>${(totalPrice * 0.08).toFixed(2)}</span>
+              <span>VAT (15%)</span>
+              <span>R{(totalPrice * 0.15).toFixed(2)}</span>
             </div>
             <div className="border-t border-white/10 pt-3 flex justify-between text-lg font-bold">
               <span>Total</span>
-              <span className="text-neon-cyan">${(totalPrice * 1.08).toFixed(2)}</span>
+              <span className="text-neon-cyan">R{(totalPrice * 1.15).toFixed(2)}</span>
             </div>
           </div>
 
-          <button className="w-full py-3 bg-neon-purple hover:bg-neon-purple/80 text-white font-semibold rounded-lg transition-all duration-200 neon-glow-purple mb-3">
+          <Link
+            href="/checkout"
+            className="block w-full py-3 bg-neon-purple hover:bg-neon-purple/80 text-white font-semibold rounded-lg transition-all duration-200 neon-glow-purple mb-3 text-center"
+          >
             Checkout
-          </button>
+          </Link>
           <button
             onClick={clearCart}
             className="w-full py-3 border border-white/10 text-gray-400 hover:text-neon-pink hover:border-neon-pink/50 font-medium rounded-lg transition-all duration-200"

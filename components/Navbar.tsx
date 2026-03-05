@@ -2,11 +2,25 @@
 
 import Link from "next/link";
 import { useCart } from "@/context/CartContext";
-import { useState } from "react";
+import { useAuth } from "@/context/AuthContext";
+import { useState, useRef, useEffect } from "react";
 
 export default function Navbar() {
   const { totalItems } = useCart();
+  const { user, signOut } = useAuth();
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [userMenuOpen, setUserMenuOpen] = useState(false);
+  const menuRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    function handleClick(e: MouseEvent) {
+      if (menuRef.current && !menuRef.current.contains(e.target as Node)) {
+        setUserMenuOpen(false);
+      }
+    }
+    document.addEventListener("mousedown", handleClick);
+    return () => document.removeEventListener("mousedown", handleClick);
+  }, []);
 
   const links = [
     { href: "/", label: "Home" },
@@ -56,6 +70,58 @@ export default function Navbar() {
               )}
             </Link>
 
+            {/* Auth section */}
+            {user ? (
+              <div className="relative" ref={menuRef}>
+                <button
+                  onClick={() => setUserMenuOpen(!userMenuOpen)}
+                  className="flex items-center gap-2 text-sm text-gray-300 hover:text-white transition-colors"
+                >
+                  <div className="w-8 h-8 rounded-full bg-neon-purple/20 border border-neon-purple/30 flex items-center justify-center text-neon-purple font-bold text-xs">
+                    {user.avatar}
+                  </div>
+                  <span className="hidden sm:inline font-medium">{user.name}</span>
+                </button>
+
+                {userMenuOpen && (
+                  <div className="absolute right-0 mt-2 w-48 bg-dark-card border border-white/10 rounded-lg shadow-xl py-1 z-50">
+                    <Link
+                      href="/profile"
+                      onClick={() => setUserMenuOpen(false)}
+                      className="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-white/5 transition-colors"
+                    >
+                      Profile
+                    </Link>
+                    {user.role === "admin" && (
+                      <Link
+                        href="/admin"
+                        onClick={() => setUserMenuOpen(false)}
+                        className="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-white/5 transition-colors"
+                      >
+                        Admin Console
+                      </Link>
+                    )}
+                    <button
+                      onClick={() => {
+                        setUserMenuOpen(false);
+                        signOut();
+                      }}
+                      className="block w-full text-left px-4 py-2 text-sm text-gray-300 hover:text-neon-pink hover:bg-white/5 transition-colors"
+                    >
+                      Sign Out
+                    </button>
+                  </div>
+                )}
+              </div>
+            ) : (
+              <Link
+                href="/checkout"
+                className="text-sm text-gray-300 hover:text-neon-purple transition-colors font-medium"
+              >
+                Sign In
+              </Link>
+            )}
+
             <button
               className="md:hidden p-2 text-gray-300"
               onClick={() => setMobileOpen(!mobileOpen)}
@@ -79,6 +145,26 @@ export default function Navbar() {
                 {link.label}
               </Link>
             ))}
+            {user && (
+              <>
+                <Link
+                  href="/profile"
+                  onClick={() => setMobileOpen(false)}
+                  className="block px-3 py-2 text-gray-300 hover:text-neon-purple hover:bg-dark-card rounded-lg transition-colors"
+                >
+                  Profile
+                </Link>
+                {user.role === "admin" && (
+                  <Link
+                    href="/admin"
+                    onClick={() => setMobileOpen(false)}
+                    className="block px-3 py-2 text-gray-300 hover:text-neon-purple hover:bg-dark-card rounded-lg transition-colors"
+                  >
+                    Admin Console
+                  </Link>
+                )}
+              </>
+            )}
           </div>
         )}
       </div>

@@ -26,7 +26,7 @@ export default function Footer() {
           <div>
             <h3 className="text-sm font-semibold text-gray-200 uppercase tracking-wider">Support</h3>
             <ul className="mt-3 space-y-2">
-              <li><span className="text-sm text-gray-400">FAQ</span></li>
+              <li><Link href="/faq" className="text-sm text-gray-400 hover:text-neon-purple transition-colors">FAQ</Link></li>
               <li><Link href="/shipping" className="text-sm text-gray-400 hover:text-neon-purple transition-colors">Shipping</Link></li>
               <li><span className="text-sm text-gray-400">Returns</span></li>
             </ul>

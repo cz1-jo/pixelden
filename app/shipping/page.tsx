@@ -124,8 +124,8 @@ const tiers = [
     name: "Standard",
     eta: "5–7 business days",
     price: "Free",
-    note: "on orders $50+",
-    sub: "Otherwise $4.99",
+    note: "on orders R900+",
+    sub: "Otherwise R89.99",
     color: "neon-cyan",
     border: "border-neon-cyan/30",
     glow: "neon-glow-cyan",
@@ -133,7 +133,7 @@ const tiers = [
   {
     name: "Express",
     eta: "2–3 business days",
-    price: "$9.99",
+    price: "R179.99",
     color: "neon-purple",
     border: "border-neon-purple/30",
     glow: "neon-glow-purple",
@@ -141,7 +141,7 @@ const tiers = [
   {
     name: "Overnight",
     eta: "1 business day",
-    price: "$19.99",
+    price: "R359.99",
     color: "neon-pink",
     border: "border-neon-pink/30",
     glow: "neon-glow-pink",
