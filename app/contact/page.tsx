@@ -106,7 +106,7 @@ export default function ContactPage() {
                 </svg>
                 <div>
                   <p className="text-sm text-gray-400">Location</p>
-                  <p className="text-gray-200">Los Angeles, CA</p>
+                  <p className="text-gray-200">Cape Town, South Africa</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
