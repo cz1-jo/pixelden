@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero";
+import ModernGamerBanner from "@/components/ModernGamerBanner";
 import ProductCard from "@/components/ProductCard";
 import VideoSection from "@/components/VideoSection";
 import CollectionBanner from "@/components/CollectionBanner";
@@ -37,6 +38,7 @@ export default function HomePage() {
         </div>
       </section>
 
+      <ModernGamerBanner />
       <VideoSection />
       <CollectionBanner />
 

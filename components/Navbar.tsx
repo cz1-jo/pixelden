@@ -13,6 +13,10 @@ export default function Navbar() {
     { href: "/games", label: "Games" },
     { href: "/apparel", label: "Apparel" },
     { href: "/accessories", label: "Accessories" },
+    { href: "/trading", label: "Trading" },
+    { href: "/blog", label: "Blog" },
+    { href: "/shipping", label: "Shipping" },
+    { href: "/contact", label: "Contact" },
   ];
 
   return (
